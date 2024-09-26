@@ -1,8 +1,15 @@
+import 'package:apiproject/firebase_options.dart';
 import 'package:apiproject/home/ui/screens/home_nav.dart';
+import 'package:apiproject/home/ui/screens/login_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -10,8 +17,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home:  HomeScreen()
-    );
+    return MaterialApp(home: LoginPage());
   }
 }

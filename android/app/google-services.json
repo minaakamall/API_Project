@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184093741702",
+    "project_id": "icthub-2024-604ca",
+    "storage_bucket": "icthub-2024-604ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184093741702:android:e840d7db2ff67dbb9d3707",
+        "android_client_info": {
+          "package_name": "com.example.apiproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsuFlEo-whJ2LNyb-uJbeFiiCAi5zDlAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
